@@ -43,7 +43,7 @@
 
         <Button Grid.Row="2" Grid.Column="2" Content="Load Data" Command="{Binding CmdLoad}" />
 
-        <Image Grid.Row="1" Grid.Column="3" Grid.RowSpan="2" Source="../Images/Logo.png" Height="50"/>
+        <Image Grid.Row="1" Grid.Column="3" Grid.RowSpan="2" Source="../Images/Logo.png" Height="50" />
 
         <DataGrid Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="3"
                   ItemsSource="{Binding IpDataObjectItems}"
