@@ -16,7 +16,7 @@ namespace ZbW.Testing.WpfSample.Client.Services
         public IpDataObject GetData(string ip)
         {
             var data = _ipInfoApi.GetInfoAsync(ip).Result;
-            
+
             var dataObject = new IpDataObject
             {
                 Ip = data.Ip,
