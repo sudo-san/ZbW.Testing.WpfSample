@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:viewModels="clr-namespace:ZbW.Testing.WpfSample.Client.ViewModels"
         mc:Ignorable="d"
-        Title="MainView" Height="200" Width="600"
+        Title="IP Info | ZbW Zentrum für berufliche Weiterbildung" Height="200" Width="600"
         WindowStartupLocation="CenterScreen"
         d:DataContext="{d:DesignInstance viewModels:MainViewModel}">
     <Window.Resources>
