@@ -7,15 +7,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{A7FC0B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{672DA1C4-20BC-4983-9A5B-92DFB6885291}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZbW.Testing.WpfSample.Client", "ZbW.Testing.WpfSample.Client\ZbW.Testing.WpfSample.Client.csproj", "{01E747C2-13C4-496E-BBF4-69C694DFB858}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZbW.Testing.WpfSample.Client", "ZbW.Testing.WpfSample.Client\ZbW.Testing.WpfSample.Client.csproj", "{01E747C2-13C4-496E-BBF4-69C694DFB858}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{02F51EB5-7016-488C-A7F9-C9E9F673B3C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZbW.Testing.WpfSample.Libs.IpInfoInterface", "ZbW.Testing.WpfSample.Libs.IpInfoInterface\ZbW.Testing.WpfSample.Libs.IpInfoInterface.csproj", "{09570209-1A9C-46E0-BD11-51B2C529778C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZbW.Testing.WpfSample.Libs.IpInfoInterface", "ZbW.Testing.WpfSample.Libs.IpInfoInterface\ZbW.Testing.WpfSample.Libs.IpInfoInterface.csproj", "{09570209-1A9C-46E0-BD11-51B2C529778C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZbW.Testing.WpfSample.Client.UnitTests", "ZbW.Testing.WpfSample.Client.UnitTests\ZbW.Testing.WpfSample.Client.UnitTests.csproj", "{0A3CD259-1054-446A-920A-C09EEF9CB6A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZbW.Testing.WpfSample.Libs.IpInfoInterface.IntegrationTests", "ZbW.Testing.WpfSample.Libs.IpInfoInterface.IntegrationTests\ZbW.Testing.WpfSample.Libs.IpInfoInterface.IntegrationTests.csproj", "{E33EDB0E-65CC-412D-8AF4-5489281BDCC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZbW.Testing.WpfSample.Client.IntegrationTests", "ZbW.Testing.WpfSample.Client.IntegrationTests\ZbW.Testing.WpfSample.Client.IntegrationTests.csproj", "{6C509D5D-0859-49A1-A91F-21961403F28D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZbW.Testing.WpfSample.Client.UnitTests", "ZbW.Testing.WpfSample.Client.UnitTests\ZbW.Testing.WpfSample.Client.UnitTests.csproj", "{C18A1AFF-9E74-4779-B4D5-AD5F52735B5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZbW.Testing.WpfSample.Client.IntegrationTests", "ZbW.Testing.WpfSample.Client.IntegrationTests\ZbW.Testing.WpfSample.Client.IntegrationTests.csproj", "{193B0954-BB68-4F13-905E-C712702115EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,14 +33,18 @@ Global
 		{09570209-1A9C-46E0-BD11-51B2C529778C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09570209-1A9C-46E0-BD11-51B2C529778C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09570209-1A9C-46E0-BD11-51B2C529778C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0A3CD259-1054-446A-920A-C09EEF9CB6A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0A3CD259-1054-446A-920A-C09EEF9CB6A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0A3CD259-1054-446A-920A-C09EEF9CB6A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0A3CD259-1054-446A-920A-C09EEF9CB6A6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6C509D5D-0859-49A1-A91F-21961403F28D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6C509D5D-0859-49A1-A91F-21961403F28D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6C509D5D-0859-49A1-A91F-21961403F28D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6C509D5D-0859-49A1-A91F-21961403F28D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E33EDB0E-65CC-412D-8AF4-5489281BDCC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E33EDB0E-65CC-412D-8AF4-5489281BDCC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E33EDB0E-65CC-412D-8AF4-5489281BDCC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E33EDB0E-65CC-412D-8AF4-5489281BDCC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C18A1AFF-9E74-4779-B4D5-AD5F52735B5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C18A1AFF-9E74-4779-B4D5-AD5F52735B5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C18A1AFF-9E74-4779-B4D5-AD5F52735B5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C18A1AFF-9E74-4779-B4D5-AD5F52735B5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{193B0954-BB68-4F13-905E-C712702115EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{193B0954-BB68-4F13-905E-C712702115EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{193B0954-BB68-4F13-905E-C712702115EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{193B0954-BB68-4F13-905E-C712702115EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,8 +52,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{01E747C2-13C4-496E-BBF4-69C694DFB858} = {A7FC0B3E-CD1D-4810-BED9-3791EA5304AF}
 		{09570209-1A9C-46E0-BD11-51B2C529778C} = {02F51EB5-7016-488C-A7F9-C9E9F673B3C9}
-		{0A3CD259-1054-446A-920A-C09EEF9CB6A6} = {672DA1C4-20BC-4983-9A5B-92DFB6885291}
-		{6C509D5D-0859-49A1-A91F-21961403F28D} = {672DA1C4-20BC-4983-9A5B-92DFB6885291}
+		{E33EDB0E-65CC-412D-8AF4-5489281BDCC4} = {672DA1C4-20BC-4983-9A5B-92DFB6885291}
+		{C18A1AFF-9E74-4779-B4D5-AD5F52735B5A} = {672DA1C4-20BC-4983-9A5B-92DFB6885291}
+		{193B0954-BB68-4F13-905E-C712702115EC} = {672DA1C4-20BC-4983-9A5B-92DFB6885291}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2877C407-6A23-4B92-B61B-1E412B37F189}

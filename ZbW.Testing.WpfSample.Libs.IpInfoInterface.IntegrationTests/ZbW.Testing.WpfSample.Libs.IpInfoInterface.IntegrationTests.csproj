@@ -1,14 +1,13 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <UseWPF>true</UseWPF>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Services\" />
-    <Folder Include="ViewModels\" />
+    <PackageReference Include="FakeItEasy" Version="6.2.1" />
+    <PackageReference Include="FakeItEasy.Analyzer.CSharp" Version="6.0.0" />
+    <PackageReference Include="NUnit" Version="3.12.0" />
   </ItemGroup>
 
   <ItemGroup>
